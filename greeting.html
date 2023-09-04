@@ -137,7 +137,7 @@ hrs = today.getHours();
 //         greet = 'Good Evening  ';
 // console.log(today.toLocaleTimeString());
 let startDate = new Date(2023, 9-1, 4-1)
-greet = 'Week ' + differenceInWeeks(startDate, today)
+greet = 'Week ' + (differenceInWeeks(startDate, today) + 1)
 
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
